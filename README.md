@@ -22,26 +22,44 @@ This data has been processed to remove trips that are taken by staff as they ser
 
 <b>Data sets used:</b>
 
-New York City Trips from January 2019 through May 2019
+Jersey City Trips from January 2019 through May 2019 (This dataset is much smaller and was initially used to assemble the worksheets and dashboards.)
+
+New York City Trips from January 2019 through May 2019 (This dataset is much larger.)
 
 <b>Data cleaning:</b>
 
-Removed entries with birth year < 1939 (or age > 80).
-Removed entries with trips that are over 24 hours. Bikes checked out for more than 24 hours are considered lost/stolen.
-Final data set contained 6,918,077 records.
+<ul>
+<li>Removed entries with birth year < 1939 (or age > 80).</li>
+<li>Removed entries with trips that are over 24 hours. Bikes checked out for more than 24 hours are considered lost/stolen.
+</ul>
+
+Resulting Jersey City data set contained 130,966 records.
+
+Resulting NYC data set contained 6,918,077 records.
 
 <b>Dashboards:</b>
 
-Total number of trips recorded during the time period.
-Average duration of trips.
-User demographics based on gender and age.
-Short-term customers and annual subscribers.
-Top 10 stations for starting/ending trips.
-Bottom 10 stations for starting/ending trips.
-Individual bike usage. 
+<ul>
+<li>Total number of trips recorded during the time period.</li>
+<li>Average duration of trips.</li>
+<li>User demographics based on gender and age.</li>
+<li>Short-term customers and annual subscribers.</li>
+<li>Top 10 stations for starting/ending trips.</li>
+<li>Bottom 10 stations for starting/ending trips.</li>
+<li>Individual bike usage. </li>
+<li>
+</ul>
 
 <b>Visualizations:</b>
 
-A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
+<ul>
+<li>A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.</li>
+<li>A dynamic map that shows how each station's popularity changes over time by month</li>
+</ul>
 
-A dynamic map that shows how each station's popularity changes over time by month
+<b>Deliverables:</b>
+
+Jersey City Bike Usage
+https://public.tableau.com/profile/cindy7982#!/vizhome/CitiBikeAnalytics-JerseyCity/CitiBikes2019
+
+New York City Bike Usage
