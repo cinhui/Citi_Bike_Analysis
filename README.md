@@ -30,43 +30,18 @@ Removed entries with birth year < 1939 (or age > 80).
 Removed entries with trips that are over 24 hours. Bikes checked out for more than 24 hours are considered lost/stolen.
 Final data set contained 6,918,077 records.
 
-<b>Questions:</b>
+<b>Dashboards:</b>
 
-How many trips have been recorded total during the chosen period?
-
-By what percentage has total ridership grown? 
-
-How has the proportion of short-term customers and annual subscribers changed?
-
-What are the peak hours in which bikes are used during summer months? 
-
-What are the peak hours in which bikes are used during winter months?
-
-Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top 
-locations?)
-
-Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-
-Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-
-Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-
-Today, what is the gender breakdown of active participants (Male v. Female)?
-
-How effective has gender outreach been in increasing female ridership over the timespan?
-
-How does the average trip duration change by age?
-
-What is the average distance in miles that a bike is ridden?
-
-Which bikes (by ID) are most likely due for repair or inspection in the timespan? 
-
-How variable is the utilization by bike ID?
+Total number of trips recorded during the time period.
+Average duration of trips.
+User demographics based on gender and age.
+Short-term customers and annual subscribers.
+Top 10 stations for starting/ending trips.
+Bottom 10 stations for starting/ending trips.
+Individual bike usage. 
 
 <b>Visualizations:</b>
 
 A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
 
-A dynamic map that shows how each station's popularity changes over time (by month and year) -- with commentary pointing to any interesting events that may be behind these phenomena.
-
-Find at least two unexpected phenomena in the data and provide a visualization and analysis to document their presence.
+A dynamic map that shows how each station's popularity changes over time by month
