@@ -37,7 +37,7 @@ Resulting Jersey City data set contained 130,966 records.
 
 Resulting NYC data set contained 6,918,077 records.
 
-<b>Dashboards:</b>
+<b>Dashboards include:</b>
 
 <ul>
 <li>Total number of trips recorded during the time period.</li>
@@ -46,8 +46,7 @@ Resulting NYC data set contained 6,918,077 records.
 <li>Short-term customers and annual subscribers.</li>
 <li>Top 10 stations for starting/ending trips.</li>
 <li>Bottom 10 stations for starting/ending trips.</li>
-<li>Individual bike usage. </li>
-<li>
+<li>Bikes (by ID) most likely due for repair or inspection based on bike usage. </li>
 </ul>
 
 <b>Visualizations:</b>
@@ -60,6 +59,9 @@ Resulting NYC data set contained 6,918,077 records.
 <b>Deliverables:</b>
 
 Jersey City Bike Usage
+
 https://public.tableau.com/profile/cindy7982#!/vizhome/CitiBikeAnalytics-JerseyCity/CitiBikes2019
 
 New York City Bike Usage
+
+Tableau workbook was too large to upload to GitHub, so exported workbook to PDF.
